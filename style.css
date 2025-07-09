@@ -333,7 +333,9 @@ footer p{
     padding-bottom: 40px;
 }
 .end-icons{
+    display: flex;
     gap: 30px;
+    justify-content: center;
 }
 
     
