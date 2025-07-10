@@ -235,8 +235,12 @@
                     <img src="./assets/seperator.svg">
                 </div>
                 <div class="forms">
-                    <form method="post">
-                        <input type="text" value="name">
+                    <form>
+                        <input type="text" placeholder="ENTER YOUR NAME*" required>
+                        <input type="email" placeholder="ENTER YOUR EMAIL*" required>
+                        <input type="text" pattern="[0-9]" placeholder="PHONE NUMBER" required>
+                        <textarea name="message" rows="5" cols="30"  placeholder="YOUR MESSAGE*"></textarea>
+                        <button>SUBMIT</button>
                     </form>
                 </div>
             </div>
